@@ -1,8 +1,20 @@
-# React + Vite
+# React API Integration – User List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React-based application that demonstrates how to integrate with an external API, display user data, and implement real-time search with debounce functionality.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔄 API data fetching using `axios`
+- 👤 User list display from the API
+- 🔍 Debounced search (to prevent excessive re-renders)
+- ✅ Toggle user selection with visual feedback
+- ⚠️ Loading and error state handling
+- ⚛️ React hooks (`useState`, `useEffect`)
+
+## 🧠 Tech Stack
+
+- React
+- Axios
+- Tailwind CSS (for styling)
+- JavaScript (ES6+)
+
